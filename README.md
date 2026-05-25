@@ -1,6 +1,6 @@
 # El Ataque de las Babosas
 
-> Videojuego 2D tipo **Arcade Shooter / Plataforma** desarrollado con **Phaser.js** para la asignatura de Aplicaciones Web — Ingeniería en Software, Escuela Politécnica Nacional (EPN).
+> Videojuego 2D tipo **Arcade Shooter / Plataforma** desarrollado con **Phaser.js** para la asignatura de Aplicaciones Web — Computación, Escuela Politécnica Nacional (EPN).
 
 ---
 
@@ -268,7 +268,7 @@ phaser-game/
 
 - **Nombre:** Martín Cusme, David Cuasquer, Juan Murillo
 - **Asignatura:** Aplicaciones Web
-- **Carrera:** Ingeniería en Software
+- **Carrera:** Computación
 - **Universidad:** Escuela Politécnica Nacional (EPN)
 - **Docente:** Jaime Sayago-Heredia
 - **Fecha de entrega:** 26 de mayo de 2026
