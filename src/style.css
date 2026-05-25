@@ -1,0 +1,127 @@
+:root {
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #fff;
+  --border: #e5e4e7;
+  --code-bg: #f4f3ec;
+  --accent: #aa3bff;
+  --accent-bg: rgba(170, 59, 255, 0.1);
+  --accent-border: rgba(170, 59, 255, 0.5);
+  --social-bg: rgba(244, 243, 236, 0.5);
+  --shadow:
+    rgba(0, 0, 0, 0.1) 0 10px 15px -3px, rgba(0, 0, 0, 0.05) 0 4px 6px -2px;
+
+  --sans: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --heading: system-ui, 'Segoe UI', Roboto, sans-serif;
+  --mono: ui-monospace, Consolas, monospace;
+
+  font: 18px/145% var(--sans);
+  letter-spacing: 0.18px;
+  color-scheme: light dark;
+  color: var(--text);
+  background: var(--bg);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  @media (max-width: 1024px) {
+    font-size: 16px;
+  }
+}
+
+/* Aqui implementar tema oscuro con @media (prefers-color-scheme: dark) */
+/* - Sobreescribir variables CSS para modo oscuro */
+/* - Ajustar colores de texto, fondo, bordes, acentos */
+/* - Invertir iconos sociales con filter */
+
+body {
+  margin: 0;
+}
+
+h1,
+h2 {
+  font-family: var(--heading);
+  font-weight: 500;
+  color: var(--text-h);
+}
+
+h1 {
+  /* Aqui estilos del heading principal: font-size, letter-spacing, margin */
+  /* Incluir media query para responsive */
+}
+h2 {
+  /* Aqui estilos del heading secundario: font-size, line-height, letter-spacing */
+  /* Incluir media query para responsive */
+}
+p {
+  margin: 0;
+}
+
+code,
+.counter {
+  font-family: var(--mono);
+  display: inline-flex;
+  border-radius: 4px;
+  color: var(--text-h);
+}
+
+code {
+  /* Aqui estilos del bloque de codigo inline */
+}
+
+.counter {
+  /* Aqui estilos del boton contador interactivo */
+  /* - Padding, border-radius, colores de acento */
+  /* - Transicion de borde al hacer hover */
+  /* - Outline visible con focus-visible */
+}
+
+.hero {
+  /* Aqui estilos del hero con logos animados */
+  /* - Posicionamiento relativo/absoluto de .base, .framework, .vite */
+  /* - Transformaciones 3D con perspective y rotate */
+}
+
+#app {
+  /* Aqui estilos del contenedor principal de la app */
+  /* - Ancho maximo, centrado, bordes laterales */
+  /* - Flexbox columna, min-height 100svh */
+}
+
+#center {
+  /* Aqui estilos de la seccion central */
+  /* - Flexbox columna centrada */
+  /* - Gap entre elementos */
+  /* - Responsive para moviles */
+}
+
+#next-steps {
+  /* Aqui estilos de la seccion "Proximos pasos" */
+  /* - Flexbox horizontal, borde superior */
+  /* - Cada div hijo con flex: 1 1 0 y padding */
+  /* - Responsive: cambiar a columna en movil */
+}
+
+#docs {
+  /* Aqui estilos de la seccion de documentacion */
+  /* - Borde derecho (borde inferior en movil) */
+}
+
+#next-steps ul {
+  /* Aqui estilos de la lista de enlaces sociales */
+  /* - List-style none, flexbox con gap */
+  /* - Cada enlace con fondo, border-radius, sombra al hover */
+  /* - Responsive: wrap y centrado en movil */
+}
+
+#spacer {
+  /* Aqui estilos del spacer inferior */
+  /* - Altura fija, borde superior */
+  /* - Menor en movil */
+}
+
+.ticks {
+  /* Aqui estilos de los marcadores decorativos */
+  /* - Pseudo-elementos before y after con bordes triangulares */
+}

@@ -1,0 +1,14 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fdfd96; 
+    font-family: sans-serif;
+    touch-action: none; /* Evitar scroll en navegador movil */
+}
+
+#game-container {
+    /* Aqui estilos del contenedor del juego, sombras, bordes */
+}
