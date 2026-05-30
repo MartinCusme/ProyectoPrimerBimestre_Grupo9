@@ -1,7 +1,9 @@
 export function setupCounter(element) {
-  // Aqui logica del contador interactivo
-  // - Inicializar variable counter en 0
-  // - Funcion setCounter para actualizar el valor y el innerHTML
-  // - EventListener de click para incrementar el contador
-  // - Llamar setCounter(0) para inicializar
+  let counter = 0
+  const setCounter = (count) => {
+    counter = count
+    element.innerHTML = `Count is ${counter}`
+  }
+  element.addEventListener('click', () => setCounter(counter + 1))
+  setCounter(0)
 }
