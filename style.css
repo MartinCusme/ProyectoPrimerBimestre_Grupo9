@@ -6,9 +6,9 @@ body {
     height: 100vh;
     background-color: #fdfd96; 
     font-family: sans-serif;
-    touch-action: none; /* Evitar scroll en navegador movil */
+    touch-action: none; /* Crucial para evitar que el navegador móvil haga scroll */
 }
 
 #game-container {
-    /* Aqui estilos del contenedor del juego, sombras, bordes */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
 }

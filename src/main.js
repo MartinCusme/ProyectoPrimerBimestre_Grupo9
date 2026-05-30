@@ -10,21 +10,17 @@ const config = {
     height: 600,
     parent: 'game-container',
     scale: {
-        // Aqui configuracion de escalado para dispositivos moviles
-        // mode: ...
-        // autoCenter: ...
+        mode: Phaser.Scale.FIT, // Escala automáticamente en móviles
+        autoCenter: Phaser.Scale.CENTER_BOTH
     },
     physics: {
         default: 'arcade',
         arcade: {
-            // Aqui configuracion de gravedad del mundo
-            // gravity: { y: ... },
-            // debug: ...
+            gravity: { y: 500 },
+            debug: false
         }
     },
-    // Aqui registrar todas las escenas del juego: BootScene, MainMenu, GameScene, InstructionsScene
-    scene: []
+    scene: [BootScene, MainMenu, GameScene, InstructionsScene] // Añadimos MainMenu
 };
 
-// Aqui inicializar la instancia del juego Phaser con la configuracion
-// const game = new Phaser.Game(config);
+const game = new Phaser.Game(config);
